@@ -4,7 +4,7 @@ pd.set_option("display.max_rows", None)
 pd.set_option("display.max_columns", None)
 pd.set_option("display.width", None)
 
-schools = pd.read_csv("datalab_export_2026-05-12 05_39_57.csv")
+schools = pd.read_csv("nyc_schools.csv")
 
 schools = schools.fillna(0, inplace=True)
 
